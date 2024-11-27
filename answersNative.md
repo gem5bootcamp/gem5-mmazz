@@ -1,46 +1,46 @@
 ## Data of 100 runs:
 
-Numbers of threads 16
-The average of algorithm 1 is: 0.614
-The average of algorithm 2 is: 0.482
-The average of algorithm 3 is: 0.433
-The average of algorithm 4 is: 0.428
-The average of algorithm 5 is: 0.249
-The average of algorithm 6 is: 0.243
+Numbers of threads 16\
+The average of algorithm 1 is: 0.614 \
+The average of algorithm 2 is: 0.482\
+The average of algorithm 3 is: 0.433\
+The average of algorithm 4 is: 0.428\
+The average of algorithm 5 is: 0.249\
+The average of algorithm 6 is: 0.243\
 
-Numbers of threads 8
-The average of algorithm 1 is: 0.56
-The average of algorithm 2 is: 0.474
-The average of algorithm 3 is: 0.467
-The average of algorithm 4 is: 0.45
-The average of algorithm 5 is: 0.153
-The average of algorithm 6 is: 0.153
+Numbers of threads 8\
+The average of algorithm 1 is: 0.56\
+The average of algorithm 2 is: 0.474\
+The average of algorithm 3 is: 0.467\
+The average of algorithm 4 is: 0.45\
+The average of algorithm 5 is: 0.153\
+The average of algorithm 6 is: 0.153\
 
-Numbers of threads 4
-The average of algorithm 1 is: 0.539
-The average of algorithm 2 is: 0.448
-The average of algorithm 3 is: 0.45
-The average of algorithm 4 is: 0.434
-The average of algorithm 5 is: 0.118
-The average of algorithm 6 is: 0.114
+Numbers of threads 4\
+The average of algorithm 1 is: 0.539\
+The average of algorithm 2 is: 0.448\
+The average of algorithm 3 is: 0.45\
+The average of algorithm 4 is: 0.434\
+The average of algorithm 5 is: 0.118\
+The average of algorithm 6 is: 0.114\
 
-Numbers of threads 2
-The average of algorithm 1 is: 0.598
-The average of algorithm 2 is: 0.428
-The average of algorithm 3 is: 0.427
-The average of algorithm 4 is: 0.412
-The average of algorithm 5 is: 0.152
-The average of algorithm 6 is: 0.153
+Numbers of threads 2\
+The average of algorithm 1 is: 0.598\
+The average of algorithm 2 is: 0.428\
+The average of algorithm 3 is: 0.427\
+The average of algorithm 4 is: 0.412\
+The average of algorithm 5 is: 0.152\
+The average of algorithm 6 is: 0.153\
 
 
 
-Speed up one thread vs 16
-The average of algorithm 1 is:  2.252
-The average of algorithm 2 is:  2.568
-The average of algorithm 3 is:  2.894
-The average of algorithm 4 is:  3.234
-The average of algorithm 5 is:  5.522
-The average of algorithm 6 is:  5.679
+Speed up one thread vs 16\
+The average of algorithm 1 is:  2.252\
+The average of algorithm 2 is:  2.568\
+The average of algorithm 3 is:  2.894\
+The average of algorithm 4 is:  3.234\
+The average of algorithm 5 is:  5.522\
+The average of algorithm 6 is:  5.679\
 
 - Question 1: Is more or less the same ass we can see in the data.
 - Question 2:
@@ -61,46 +61,46 @@ The average of algorithm 6 is:  5.679
 
 Data for 16 threads
 
-Time Simulated
-Taccesshe average of algorithm 1 is: 0.000917
-The average of algorithm 2 is: 0.000915
-The average of algorithm 3 is: 0.000686
-The average of algorithm 4 is: 0.000687
-The average of algorithm 5 is: 0.000145
-The average of algorithm 6 is: 0.000114
+Time Simulated\
+The value of algorithm 1 is: 0.000917\
+The value of algorithm 2 is: 0.000915\
+The value of algorithm 3 is: 0.000686\
+The value of algorithm 4 is: 0.000687\
+The value of algorithm 5 is: 0.000145\
+The value of algorithm 6 is: 0.000114\
 
-Read shearing
-The average of algorithm 1 is: 2380
-The average of algorithm 2 is: 599
-The average of algorithm 3 is: 2385
-The average of algorithm 4 is: 610
-The average of algorithm 5 is: 2404
-The average of algorithm 6 is: 650
+Read shearing\
+The value of algorithm 1 is: 2380\
+The value of algorithm 2 is: 599\
+The value of algorithm 3 is: 2385\
+The value of algorithm 4 is: 610\
+The value of algorithm 5 is: 2404\
+The value of algorithm 6 is: 650\
 
-Write shearing
-The average of algorithm 1 is: 32906
-The average of algorithm 2 is: 32863
-The average of algorithm 3 is: 32814
-The average of algorithm 4 is: 32776
-The average of algorithm 5 is: 192
-The average of algorithm 6 is: 245
+Write shearing\
+The value of algorithm 1 is: 32906\
+The value of algorithm 2 is: 32863\
+The value of algorithm 3 is: 32814\
+The value of algorithm 4 is: 32776\
+The value of algorithm 5 is: 192\
+The value of algorithm 6 is: 245\
 
-Hits ratio
-The average of algorithm 1 is:  0.859
-The average of algorithm 2 is:  0.933
-The average of algorithm 3 is:  0.868
-The average of algorithm 4 is:  0.941
-The average of algorithm 5 is:  0.932
-The average of algorithm 6 is:  0.994
+Hits ratio\
+The value of algorithm 1 is:  0.859\
+The value of algorithm 2 is:  0.933\
+The value of algorithm 3 is:  0.868\
+The value of algorithm 4 is:  0.941\
+The value of algorithm 5 is:  0.932\
+The value of algorithm 6 is:  0.994\
 
 
-SpeedUp from 1 core to 16 with 16 threads:
-The average of algorithm 1 is:  0.088
-The average of algorithm 2 is:  0.089
-The average of algorithm 3 is:  0.118
-The average of algorithm 4 is:  0.118
-The average of algorithm 5 is:  0.559
-The average of algorithm 6 is:  2.816
+SpeedUp from 1 core to 16 with 16 threads:\
+The value of algorithm 1 is:  0.088\
+The value of algorithm 2 is:  0.089\
+The value of algorithm 3 is:  0.118\
+The value of algorithm 4 is:  0.118\
+The value of algorithm 5 is:  0.559\
+The value of algorithm 6 is:  2.816\
 
 - Question 4:
     - a) The speed up is 2.816.
