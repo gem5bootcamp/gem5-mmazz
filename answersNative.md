@@ -117,16 +117,12 @@ The value of algorithm 6 is:  0.000104
 - Question 5:
     - The optimization with the biggest impact on the hit ratio is chunking the array. This is evident when comparing Algorithms 1 and 2. 
 - Question 6:
-    - The algorithms that reduce read shearing are the ones that use chunk arrays, this
-    can be seen in the table, with algorithms 2,4 and 6, that use this technique.
-    This happens because in those algorithms that don't use chunking, one core
-    brings the line from memory and all others cores access addresses in that line.
+     - The optimization that reduces read sharing the most is chunking the array. This can be observed in the table comparing Algorithms 2, 4, and 6, which utilize chunking. In algorithms that do not use chunking, one core fetches the memory line, and all other cores access addresses within that same line. By contrast, chunking ensures that each core operates on a distinct portion of the data, significantly reducing read sharing.
+
 - Question 7:
-    - the algorithms that reduce writing shearing are the ones that use padding in the result.
-    This can be seen in the table, with algorithms 5 and 6.
-    This happens because now all cores are not writing in the same lines.
+    - The algorithms that reduce write sharing are those that use padding in the result addresses. This is evident from the data for Algorithms 5 and 6, which show a significant reduction in write sharing. This improvement occurs because each core writes to distinct memory lines, avoiding conflicts where multiple cores attempt to write to the same cache line.
 - Question 8:
-    - a) the most important hardware characteristic is write sharing, we can see this because
+    - a) The most important hardware characteristic is write sharing, we can see this because
     the biggest drop in time is in algorithm 5 and 6 which are those that significantly reduce
     write sharing.
     - b) The hardware reason why write shearing is the most important factor when optimizing, is because
