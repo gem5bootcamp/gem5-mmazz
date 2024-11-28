@@ -42,18 +42,14 @@ The average of algorithm 4 is:  3.234\
 The average of algorithm 5 is:  5.522\
 The average of algorithm 6 is:  5.679
 
-- Question 1: Is more or less the same ass we can see in the data.
+- Question 1: The performance remains more or less the same, as shown in the data provided.
 - Question 2:
-    - a) No, we can see that its almost the same until we reach 16 threads, that the performance drops.
-    - b) For only one thread the average time for algorithm 6 is 1.38, so the speedup: is on the table
+    - a) : No, the performance remains nearly the same until reaching 16 threads, where it begins to drop.
+    - b)With a single thread, the average execution time for Algorithm 6 is 1.38. The speedup for 2, 4, 8, and 16 threads is shown in the table provided.
 
 - Question 3:
-    - a)The most important optimization is adding padding between the result addresses.
-    This is evident in Algorithm 5, where it consistently shows the best performance across all runs.
-    - b) The hardware optimization works by ensuring that all threads write to
-    different locations in memory that are on separate cache lines.
-    This approach prevents cache line contention and invalidation, as each thread
-    operates on a distinct cache line, avoiding interference with others.
+    - a) The most significant optimization is adding padding between the result addresses. This is evident in Algorithm 5, which consistently achieves the best performance across all runs.
+    - b) This optimization ensures that all threads write to distinct memory locations on separate cache lines. By doing so, it prevents cache line contention and invalidation. Each thread operates on its own cache line, avoiding interference and ensuring optimal memory access patterns.
 
 
 
