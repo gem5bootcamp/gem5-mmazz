@@ -113,10 +113,9 @@ The value of algorithm 6 is:  0.000104
 
 - Question 4:
     - a) The speed up is 2.816.
-    - b) Is similar, excepts that here the algorithm 2 is similar to 1 and not to algorithms 3 and 4 like in the real hardware.
+    - b) It is similar to the real system, except that here Algorithm 2 behaves similarly to Algorithm 1, whereas on the real hardware, Algorithm 2 resembles Algorithms 3 and 4 instead.
 - Question 5:
-    - a) In this case the biggest impact was chunking.
-        This can be seen in the comparison of 1 and 2, and
+    - The optimization with the biggest impact on the hit ratio is chunking the array. This is evident when comparing Algorithms 1 and 2. 
 - Question 6:
     - The algorithms that reduce read shearing are the ones that use chunk arrays, this
     can be seen in the table, with algorithms 2,4 and 6, that use this technique.
