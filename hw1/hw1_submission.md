@@ -1,4 +1,4 @@
-## Data of 100 runs:
+# Homework 1: Cache Coherence
 
 - Question 1: The performance remains more or less the same, as shown in the data provided.
 - Question 2:
@@ -8,6 +8,8 @@
 - Question 3:
     - a) The most significant optimization is adding padding between the result addresses. This is evident in Algorithm 5, which consistently achieves the best performance across all runs.
     - b) This optimization ensures that all threads write to distinct memory locations on separate cache lines. By doing so, it prevents cache line contention and invalidation. Each thread operates on its own cache line, avoiding interference and ensuring optimal memory access patterns.
+
+## Data of 100 runs:
 
 Numbers of threads 16
 | Algorithm | Average |
