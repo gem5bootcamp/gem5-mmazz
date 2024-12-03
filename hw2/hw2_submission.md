@@ -1,3 +1,6 @@
+# Homework 2: Design space exploration
+
+
 ## NAS Parallel Benchmarks
 
 - BT: This version is optimized for memory performance.  It uses much less
@@ -16,7 +19,7 @@ program).
         - As we can see in the data the IPC and execution time difference between the big and little core
         is almost 2 to 3x in all cases.
     - How do the two configurations perform across different workloads?
-        -
+        - a
     - When changing the cache and memory configurations, does the performance gap between the Big and Little cores change?
         - No, the performance gap does not change
 - Cache Impact:
@@ -26,7 +29,7 @@ program).
         workload. This can be see in the data below.
 - Insights and Conclusions:
     - Summarize your findings. What architectural choices led to the best performance? What recommendations would you make for future designs?
-        -
+        - a
 
 
 ### IPC
