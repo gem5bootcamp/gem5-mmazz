@@ -3,14 +3,12 @@
 
 ## NAS Parallel Benchmarks
 
-- BT: This version is optimized for memory performance.  It uses much less
-memory than the original version due to the size reduction of working
-arrays.
-- FT: Summary of changes from NPB2.3-serial
-    - Reduce the use of memory for big arrays by 1/3
-    - Random number generator is made parallelizable
-- CG: Except for removal of some working buffers (used in the MPI
-program).
+- BT: Block Tridiagonal
+    - Solve a synthetic system of nonlinear PDEs 
+- FT: Fast Fourier Transform
+    - Solve a three-dimensional partial differential equation (PDE) using the fast Fourier transform (FFT) 
+- CG: Conjugate Gradient
+    - Estimate the smallest eigenvalue of a large sparse symmetric positive-definite matrix using the inverse iteration with the conjugate gradient method as a subroutine for solving systems of linear equations
 
 ## Answers
 
