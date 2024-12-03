@@ -9,7 +9,7 @@
     - a) The most significant optimization is adding padding between the result addresses. This is evident in Algorithm 5, which consistently achieves the best performance across all runs.
     - b) This optimization ensures that all threads write to distinct memory locations on separate cache lines. By doing so, it prevents cache line contention and invalidation. Each thread operates on its own cache line, avoiding interference and ensuring optimal memory access patterns.
 
-Numbers of threads 16\
+Numbers of threads 16
 | Algorithm | Average |
 |-----------|---------|
 | 1         | 0.614   |
@@ -19,7 +19,7 @@ Numbers of threads 16\
 | 5         | 0.249   |
 | 6         | 0.243   |
 
-Numbers of threads 8\
+Numbers of threads 8
 | Algorithm | Average |
 |-----------|---------|
 | 1         | 0.56    |
@@ -29,7 +29,7 @@ Numbers of threads 8\
 | 5         | 0.153   |
 | 6         | 0.153   |
 
-Numbers of threads 4\
+Numbers of threads 4
 | Algorithm | Average |
 |-----------|---------|
 | 1         | 0.539   |
@@ -39,7 +39,7 @@ Numbers of threads 4\
 | 5         | 0.118   |
 | 6         | 0.114   |
 
-Numbers of threads 2\
+Numbers of threads 2
 | Algorithm | Average |
 |-----------|---------|
 | 1         | 0.598   |
@@ -49,7 +49,7 @@ Numbers of threads 2\
 | 5         | 0.152   |
 | 6         | 0.153   |
 
-Speed up one thread vs 16\
+Speed up one thread vs 16
 | Algorithm | Speed-up |
 |-----------|----------|
 | 1         | 2.252    |
@@ -86,9 +86,9 @@ Speed up one thread vs 16\
     - As we increase the cache-to-cache latency, we can see that the difference between algorithms increase.
     - Showing that reducing writebacks is more impactful as latency increase.
 
-Data for 16 threads
+## Data for 16 threads
 
-Time Simulated\
+Time Simulated
 | Algorithm | Value     |
 |-----------|-----------|
 | 1         | 0.000917  |
@@ -98,7 +98,7 @@ Time Simulated\
 | 5         | 0.000145  |
 | 6         | 0.000114  |
 
-Read shearing\
+Read shearing
 | Algorithm | Value |
 |-----------|-------|
 | 1         | 2380  |
@@ -108,7 +108,7 @@ Read shearing\
 | 5         | 2404  |
 | 6         | 650   |
 
-Write shearing (xbar_latency=10, 16 threads with 16 cores)\
+Write shearing (xbar_latency=10, 16 threads with 16 cores)
 | Algorithm | Value  |
 |-----------|--------|
 | 1         | 32906  |
@@ -118,7 +118,7 @@ Write shearing (xbar_latency=10, 16 threads with 16 cores)\
 | 5         | 192    |
 | 6         | 245    |
 
-Hits ratio\
+Hits ratio
 | Algorithm | Value  |
 |-----------|--------|
 | 1         | 0.859  |
@@ -129,7 +129,7 @@ Hits ratio\
 | 6         | 0.994  |
 
 
-SpeedUp from 1 core to 16 with 16 threads:\
+SpeedUp from 1 core to 16 with 16 threads:
 | Algorithm | Value  |
 |-----------|--------|
 | 1         | 0.088  |
@@ -140,19 +140,19 @@ SpeedUp from 1 core to 16 with 16 threads:\
 | 6         | 2.816  |
 
 
-Time Simulated (xbar_latency=25, 16 threads with 16 cores)\
+Time Simulated (xbar_latency=25, 16 threads with 16 cores)
 | Algorithm | Value     |
 |-----------|-----------|
 | 1         | 0.001760  |
 | 6         | 0.000131  |
 
-Time Simulated(xbar_latency=10, 16 threads with 16 cores)\
+Time Simulated(xbar_latency=10, 16 threads with 16 cores)
 | Algorithm | Value     |
 |-----------|-----------|
 | 1         | 0.000917  |
 | 6         | 0.000114  |
 
-Time Simulated (xbar_latency=1, 16 threads with 16 cores)\
+Time Simulated (xbar_latency=1, 16 threads with 16 cores)
 | Algorithm | Value     |
 |-----------|-----------|
 | 1         | 0.000349  |
